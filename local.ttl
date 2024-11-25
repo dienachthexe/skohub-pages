@@ -40,4 +40,11 @@ w3i:a3e0b
     skos:topConceptOf w3i: .
 w3i:bcecb
 a skos:Concept; skos:prefLabel "Humboldt Hill"@en; skos:topConceptOf w3i: .
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+w3i: a skos:ConceptScheme ;
+    ...
+    vann:preferredNamespaceUri w3i: ;
+    ...
+    .
 

@@ -5,8 +5,24 @@
 w3i:
     a skos:ConceptScheme;
     dct:description "My wonderful vocabulary."@en;
-    dct:title "Test"@en;
-    skos:hasTopConcept w3i:9bf2b, w3i:a3e0b, w3i:bcecb.
+    dct:title "Local Subject Headings"@en;
+    skos:hasTopConcept w3i:4643d, w3i:9bf2b, w3i:a3e0b, w3i:bcecb.
+w3i:2ad71
+    a skos:Concept;
+    skos:broader w3i:4643d;
+    skos:definition "Portraits of Children"@en;
+    skos:inScheme w3i:;
+    skos:prefLabel "Portraits - Children"@en.
+w3i:300e6
+    a skos:Concept;
+    skos:broader w3i:4643d;
+    skos:inScheme w3i:;
+    skos:prefLabel "Portraits - Couple"@en.
+w3i:4643d
+    a skos:Concept;
+    skos:narrower w3i:2ad71, w3i:300e6;
+    skos:prefLabel "Portraits"@en;
+    skos:topConceptOf w3i: .
 w3i:54059
     a skos:Concept;
     skos:broader w3i:a3e0b;
@@ -24,3 +40,4 @@ w3i:a3e0b
     skos:topConceptOf w3i: .
 w3i:bcecb
 a skos:Concept; skos:prefLabel "Humboldt Hill"@en; skos:topConceptOf w3i: .
+

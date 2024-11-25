@@ -1,13 +1,17 @@
 {
-  "id": "https://w3id.org/9bf2b",
+  "id": "https://w3id.org/2ad71",
   "type": "Concept",
   "prefLabel": {
-    "en": "Native American Baskets"
+    "en": "Portraits - Children"
   },
-  "hiddenLabel": {
-    "en": [
-      "Indian Baskets"
-    ]
+  "definition": {
+    "en": "Portraits of Children"
+  },
+  "broader": {
+    "id": "https://w3id.org/4643d",
+    "prefLabel": {
+      "en": "Portraits"
+    }
   },
   "inScheme": [
     {
@@ -20,14 +24,6 @@
   "inSchemeAll": [
     {
       "id": "https://w3id.org/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://w3id.org/",
-      "title": {
-        "en": "Local Subject Headings"
-      }
     }
   ],
   "@context": {

@@ -1,14 +1,23 @@
 {
-  "id": "https://w3id.org/9bf2b",
+  "id": "https://w3id.org/4643d",
   "type": "Concept",
   "prefLabel": {
-    "en": "Native American Baskets"
+    "en": "Portraits"
   },
-  "hiddenLabel": {
-    "en": [
-      "Indian Baskets"
-    ]
-  },
+  "narrower": [
+    {
+      "id": "https://w3id.org/2ad71",
+      "prefLabel": {
+        "en": "Portraits - Children"
+      }
+    },
+    {
+      "id": "https://w3id.org/300e6",
+      "prefLabel": {
+        "en": "Portraits - Couple"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://w3id.org/",

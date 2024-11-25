@@ -1,0 +1,26 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix w3i: <https://w3id.org/>.
+
+w3i:
+    a skos:ConceptScheme;
+    dct:description "My wonderful vocabulary."@en;
+    dct:title "Test"@en;
+    skos:hasTopConcept w3i:9bf2b, w3i:a3e0b, w3i:bcecb.
+w3i:54059
+    a skos:Concept;
+    skos:broader w3i:a3e0b;
+    skos:inScheme w3i:;
+    skos:prefLabel "Inns"@en.
+w3i:9bf2b
+    a skos:Concept;
+    skos:hiddenLabel "Indian Baskets"@en;
+    skos:prefLabel "Native American Baskets"@en;
+    skos:topConceptOf w3i: .
+w3i:a3e0b
+    a skos:Concept;
+    skos:narrower w3i:54059;
+    skos:prefLabel "Hotels"@en;
+    skos:topConceptOf w3i: .
+w3i:bcecb
+a skos:Concept; skos:prefLabel "Humboldt Hill"@en; skos:topConceptOf w3i: .
